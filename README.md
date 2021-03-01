@@ -9,3 +9,5 @@ Elijah Prom, Jessi Velazquez, R. Mal Sweet, Simone Odegard, Daniel Dills
 [Image link](https://docs.google.com/drawings/d/12drTVfVIRcxuTuYoieGvOaehgMqFvPL2m_9P0I8xZKA/edit)
 
 ![wireframe](img/wireframe.jpg)
+
+![domainmodel](img/DomainModel.jpg)
