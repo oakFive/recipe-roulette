@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url("../img/Background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  height: 200px;
+}
+nav {
+  background: blue;
+}
+h1 {
+  background: green;
+}
+
+.food-choice {
+  background: red;
+  display: flex;
+  gap: 2rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.food-choice img {
+  border: 5px solid black;
+  height: 400px;
+  width: 400px;
+}
