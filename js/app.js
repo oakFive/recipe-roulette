@@ -1,0 +1,1 @@
+console.log(`%c Hello world! `, `color: red`);
