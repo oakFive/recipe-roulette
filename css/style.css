@@ -15,14 +15,31 @@ img {
   width: 200px;
 }
 nav {
-  background: blue;
+  background: white;
   float: right;
-  margin-top: -40px;
+  margin-top: -55px;
   margin-right: 20px;
+  padding: 0px 20px 0px 20px;
+}
+nav ul {
+  padding: 0px 20px 0px 20px;
+  list-style: none;
+}
+nav li {
+  color: green;
+}
+nav:hover {
+  background: salmon;
+  text-transform: uppercase;
+}
+nav a {
+  color: black;
 }
 
 h1 {
-  color: pink;
+  color: black;
+  background: white;
+  border-radius: 20px;
   font-size: 6rem;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -45,4 +62,34 @@ h1 {
 
 #displayMeal {
   background-color: rgba(127, 255, 212, 0.524);
+}
+
+#mealName {
+  font-size: 4rem;
+  background: red;
+  text-align: center;
+  /* margin-left: 400px; */
+}
+
+#mealContents {
+  display: flex;
+}
+
+#nutritionSection {
+  float: right;
+  background: green;
+}
+
+#result-img {
+  float: left;
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+}
+
+#ingredientsSection {
+  background: yellow;
+}
+#instructionsSection {
+  background: pink;
 }
