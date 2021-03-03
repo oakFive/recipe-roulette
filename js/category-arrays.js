@@ -56,6 +56,7 @@ const asianMealData = [
             '1 tbsp corn starch',
         ],
         instructions: [
+<<<<<<< HEAD
             'Place the eggs in a bowl; add salt and pepper to taste.',
             'Mix together the flour and corn starch and place in a shallow bowl or on a plate',
             'Heat 3 inches of oil in a deep pot to 350 degrees F.',
@@ -66,7 +67,41 @@ const asianMealData = [
             'Whisk together the chicken broth, hoisin sauce, brown sugar, soy sauce and corn starch.',
             'Add the liquid mixture to the pan and bring to a simmer. Cook for 2-3 minutes or until sauce has thickened.',
             'Add the chicken pieces to the pan and toss to coat with the sauce. Sprinkle with sesame seeds and green onions and serve.',
+=======
+            '2 tsp vegetable oil',
+            '2 tsp minced fresh garlic',
+            '1/2 tsp crushed red pepper flakes',
         ],
+    },
+    {
+        name:'Asian Red Bean Bun',
+        imgUrl:'../img/red_bean_bun.jpg',
+        nutrition: [
+            'Calories: 100', 
+            'Total Fat: 10g ',
+            'Cholesterol: 0mg ',
+            'Sodium: 50mg',
+            'Total Carbs: 20g ',
+            'Protein: 5g ',
+        ],
+        ingredients: [
+            '1 1/2 cups All-Purpose Flour',
+            '1 1/2 Tbsp Granulated Sugar',
+            '1 1/4 tsp Instant Dry Yeast',
+            '1/3 cup Milk',
+            '3/4 cup Red Bean Paste',
+        ],
+        instructions: [
+            'Step 1: Divide the Red Bean Paste (3/4 cup) into 8 pieces, roll into balls.',
+            'Step 2: Mix Instant Dry Yeast (1 1/4 tsp), Granulated Sugar (1 1/2 Tbsp), and milk (1/3 Cup) together, let it rest for 10 minutes.',
+            'Step 3 Add the yeast mixture into the  All-Purpose Flour (1 1/2 cups) , mix and form a dough.',
+            'Step 4: Knead the dough for about 8 minutes until the surface is smooth. Cover with cling film or kitchen towel, let it rest for 30 minutes.',
+            'Step 5: Divide the dough into 8 pieces, press it to form a dish. Add in red bean paste filling, seal it and roll a ball.',
+            'Step 6:Place the dough on the parchment paper and put in a steamer. Cover the lid and let it rest for 30 minutes. The dough will grow bigger.',
+            'Step 7: Steam at high heat for about 12 minutes, turn off the heat and wait for 3 minutes to take the buns out. Serve and enjoy!',
+>>>>>>> a98e81ae888be232c9f78c52358f79db55eff18b
+        ],
+
     },
     {
         name:'Egg Drop Soup',                                                            /////2
@@ -192,13 +227,21 @@ const asianMealData = [
         ],
     },
 
+<<<<<<< HEAD
     
 ]
+=======
+    }
+]
+
+
+>>>>>>> a98e81ae888be232c9f78c52358f79db55eff18b
 const mexicanMealData = [
     {
         name:'Chicken Fajitas',                                     //////////1
         imgUrl:'../img/fajitas.jpg',
         nutrition: [
+<<<<<<< HEAD
             'Calories: 200', 
             'Total Fat: 30g',
             'Cholesterol: 0mg',
@@ -275,6 +318,41 @@ const mexicanMealData = [
             '3 cups cooked rice',
             '6 large flour tortillas(10 inch)',
             '1 1/2 cups shredded cheese',
+=======
+            'Calories: ', 
+            'Total Fat: ',
+            'Cholesterol: ',
+            'Sodium: ',
+            'Total Carbs: ',
+            'Protein: ',
+        ],
+        ingredients: [],
+        instructions: [],
+    },
+  {
+        name:'General Tsos Chicken',
+        imgUrl:'../img/general.jpg',
+        nutrition: [
+            'Calories: 100', 
+            'Total Fat: 10g ',
+            'Cholesterol: 0mg ',
+            'Sodium: 50mg',
+            'Total Carbs: 20g ',
+            'Protein: 5g ',
+        ],
+        ingredients: [
+            '2 tsp vegetable oil',
+            '2 tsp minced fresh garlic',
+            '1/2 tsp crushed red pepper flakes',
+        ],
+        instructions: [
+            '2 tsp vegetable oil',
+            '2 tsp minced fresh garlic',
+            '1/2 tsp crushed red pepper flakes',
+        ],
+    }
+]
+>>>>>>> a98e81ae888be232c9f78c52358f79db55eff18b
 
         ],
         instructions: [
