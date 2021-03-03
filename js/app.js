@@ -47,7 +47,7 @@ function VegetarianMeal(name, imgUrl, nutrition, ingredients, instructions) {
 }
 
 function asianMeal() {
-  const mealData = asianMealData[0];
+  const mealData = asianMealData[Math.floor(Math.random()*asianMealData.length)];
   const meal = new AsianMeal(
     mealData.name,
     mealData.imgUrl,
@@ -77,7 +77,7 @@ function asianMeal() {
 };
 
 function mexicanMeal() {
-  const mealData = mexicanMealData[0];
+  const mealData = mexicanMealData[Math.floor(Math.random()*mexicanMealData.length)];
   const meal = new MexicanMeal(
     mealData.name,
     mealData.imgUrl,
@@ -107,7 +107,7 @@ function mexicanMeal() {
 };
 
 function americanMeal() {
-    const mealData = americanMealData[0];
+  const mealData = americanMealData[Math.floor(Math.random()*americanMealData.length)];
   const meal = new AmericanMeal(
     mealData.name,
     mealData.imgUrl,
@@ -137,7 +137,7 @@ function americanMeal() {
 };
 
 function vegetarianMeal() {
-  const mealData = vegetarianMealData[0];
+  const mealData = vegetarianMealData[Math.floor(Math.random()*vegetarianMealData.length)];
   const meal = new VegetarianMeal(
     mealData.name,
     mealData.imgUrl,
