@@ -46,23 +46,6 @@ function VegetarianMeal(name, imgUrl, nutrition, ingredients, instructions) {
   this.instructions = instructions;
 }
 
-
-// Shuffle function
-
-/* fisher yates style shuffle
-https://medium.com/@nitinpatel_20236/how-to-shuffle-correctly-shuffle-an-array-in-javascript-15ea3f84bfb
-*/
-
-// function shuffle(array) {
-//   for (let i = array.length - 1; i > 0; i--) {
-//     const j = Math.floor(Math.random() * i)
-//     const temp = array[i]
-//     array[i] = array[j]
-//     array[j] = temp
-//   }
-// }
-
-
 function asianMeal() {
   const mealData = asianMealData[0];
   const meal = new AsianMeal(
@@ -71,7 +54,7 @@ function asianMeal() {
     mealData.nutrition,
     mealData.ingredients,
     mealData.instructions,
-  )
+  ) 
   mealNameElem.textContent = meal.name;
   const imgItem = document.createElement('img');
   imgItem.src = meal.imgUrl;
@@ -124,7 +107,7 @@ function mexicanMeal() {
 };
 
 function americanMeal() {
-  const mealData = americanMealData[0];
+    const mealData = americanMealData[0];
   const meal = new AmericanMeal(
     mealData.name,
     mealData.imgUrl,
@@ -183,7 +166,34 @@ function vegetarianMeal() {
   }
 };
 
-asianCategoryElem.addEventListener('click', asianMeal);
-mexicanCategoryElem.addEventListener('click', mexicanMeal);
-americanCategoryElem.addEventListener('click', americanMeal);
-vegetarianCategoryElem.addEventListener('click', vegetarianMeal);
+function removePreviousMeal() {
+  mealImageElem.innerHTML = "";
+  nutritionElem.innerHTML = "";
+  ingredientsElem.innerHTML = "";
+  instructionsElem.innerHTML = "";
+}
+
+function clickHandlerAsian() {
+  removePreviousMeal();
+  asianMeal();
+}
+
+function clickHandlerMexican() {
+  removePreviousMeal();
+  mexicanMeal();
+}
+
+function clickHandlerAmerican() {
+  removePreviousMeal();
+  americanMeal();
+}
+
+function clickHandlerVegetarian() {
+  removePreviousMeal();
+  vegetarianMeal();
+}
+
+asianCategoryElem.addEventListener('click', clickHandlerAsian);
+mexicanCategoryElem.addEventListener('click', clickHandlerMexican);
+americanCategoryElem.addEventListener('click', clickHandlerAmerican);
+vegetarianCategoryElem.addEventListener('click', clickHandlerVegetarian);
