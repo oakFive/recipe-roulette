@@ -1,0 +1,27 @@
+*{
+
+  text-align: center;
+  margin:0 auto;
+}
+
+h1 {
+  margin: 30px 0px 100px 0px;
+}
+
+.buttons {
+  padding:100px;
+  margin:10px;
+}
+
+#redpill:hover {
+  background: url("../img/eyeballs.jpg") no-repeat;
+}
+
+#bluepill:hover {
+  background: url("../img/pasties.jpg") no-repeat;
+}
+
+footer {
+  margin-top: 150px;
+}
+
