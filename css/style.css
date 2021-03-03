@@ -12,6 +12,7 @@ html {
 
 img {
   height: 200px;
+  width: 200px;
 }
 nav {
   background: blue;
@@ -40,4 +41,8 @@ h1 {
   height: 400px;
   width: 400px;
   border-radius: 50px;
+}
+
+#displayMeal {
+  background-color: rgba(127, 255, 212, 0.524);
 }

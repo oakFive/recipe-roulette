@@ -1,36 +1,5 @@
 'use strict'
-// Constructor Functions
-function AsianMeal(name, imgUrl, nutrition, ingredients, instructions) {
-    this.name = name;
-    this.imgUrl = imgUrl;
-    this.nutrition = nutrition;
-    this.ingredients = ingredients;
-    this.instructions = instructions;
-}
 
-function MexicanMeal(name, imgUrl, nutrition, ingredients, instructions) {
-    this.name = name;
-    this.imgUrl = imgUrl;
-    this.nutrition = nutrition;
-    this.ingredients = ingredients;
-    this.instructions = instructions;
-}
-
-function AmericanMeal(name, imgUrl, nutrition, ingredients, instructions) {
-    this.name = name;
-    this.imgUrl = imgUrl;
-    this.nutrition = nutrition;
-    this.ingredients = ingredients;
-    this.instructions = instructions;
-}
-
-function VegetarianMeal(name, imgUrl, nutrition, ingredients, instructions) {
-    this.name = name;
-    this.imgUrl = imgUrl;
-    this.nutrition = nutrition;
-    this.ingredients = ingredients;
-    this.instructions = instructions;
-}
 
 // Arrays
 const asianMealData = [
