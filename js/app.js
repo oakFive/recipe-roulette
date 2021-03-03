@@ -47,7 +47,8 @@ function VegetarianMeal(name, imgUrl, nutrition, ingredients, instructions) {
 }
 
 function asianMeal() {
-  const mealData = asianMealData[Math.floor(Math.random()*asianMealData.length)];
+  const arrayItem = Math.floor(Math.random()*asianMealData.length)
+  const mealData = asianMealData[arrayItem];
   const meal = new AsianMeal(
     mealData.name,
     mealData.imgUrl,

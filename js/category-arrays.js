@@ -1,6 +1,5 @@
 'use strict'
 
-
 // Arrays
 const asianMealData = [
     {
@@ -303,7 +302,7 @@ const mexicanMealData = [
     },
     {
         name: 'Menudo',                                          //////////5
-        imgUrl: '../img/mednudo.jpg',
+        imgUrl: '../img/menudo.jpg',
         nutrition: [
             'Calories: 1200',
             'Total Fat: 48.8g',
