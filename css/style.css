@@ -11,10 +11,11 @@ html {
 }
 
 nav {
-  background: white;
-  float: right;
-  margin-top: -55px;
-  margin-right: 20px;
+  border-radius: 20px;
+  background: rgba(105, 85, 85, 0.609);
+  float: left;
+  margin-top: 0px;
+  margin-left: 20px;
   padding: 0px 20px 0px 20px;
 }
 nav ul {
@@ -25,11 +26,12 @@ nav li {
   color: green;
 }
 nav:hover {
-  background: salmon;
+  background: rgb(34, 65, 122);
   text-transform: uppercase;
 }
 nav a {
-  color: black;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 h1 {
