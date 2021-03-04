@@ -4,7 +4,7 @@
 const asianMealData = [
     {
         name: 'General Tsos Chicken',                                                    ////// 1
-        imgUrl: '../img/general.jpg',
+        imgUrl: './img/general.jpg',
         nutrition: [
             'Calories: 750',
             'Total Fat: 20g',
@@ -38,7 +38,7 @@ const asianMealData = [
     },
     {
         name: 'Egg Drop Soup',                                                            /////2
-        imgUrl: '../img/eggdropsoup.jpg',
+        imgUrl: './img/eggdropsoup.jpg',
         nutrition: [
             'Calories: 120',
             'Total Fat: 10g',
@@ -68,7 +68,7 @@ const asianMealData = [
     },
     {
         name: 'Chinese Chicken Wings',                                                      /////3
-        imgUrl: '../img/chinesechickenwings.jpeg',
+        imgUrl: './img/chinesechickenwings.jpeg',
         nutrition: [
             'Calories: 256',
             'Total Fat: 9.2g',
@@ -93,7 +93,7 @@ const asianMealData = [
     },
     {
         name: 'Pork Dumplings',                                                                  ////////4
-        imgUrl: '../img/dumplings.jpg',
+        imgUrl: './img/dumplings.jpg',
         nutrition: [
             'Calories: 750',
             'Total Fat: 18g',
@@ -134,7 +134,7 @@ const asianMealData = [
     },
     {
         name: 'Asian Red Bean Bun',                                          ///////5
-        imgUrl: '../img/red_bean_bun.jpg',
+        imgUrl: './img/red_bean_bun.jpg',
         nutrition: [
             'Calories: 4',
             'Total Fat: 20g',
@@ -167,7 +167,7 @@ const asianMealData = [
 const mexicanMealData = [
     {
         name: 'Chicken Fajitas',                                     //////////1
-        imgUrl: '../img/fajitas.jpg',
+        imgUrl: './img/fajitas.jpg',
         nutrition: [
             'Calories: 200',
             'Total Fat: 30g',
@@ -206,7 +206,7 @@ const mexicanMealData = [
     },
     {
         name: 'Migas',                                          //////////2
-        imgUrl: '../img/migas.jpg',
+        imgUrl: './img/migas.jpg',
         nutrition: [
             'Calories: 269',
             'Total Fat: 12.8g',
@@ -228,7 +228,7 @@ const mexicanMealData = [
     },
     {
         name: 'Burrito',                                          //////////3
-        imgUrl: '../img/burrito.jpg',
+        imgUrl: './img/burrito.jpg',
         nutrition: [
             'Calories: 450',
             'Total Fat: 16g',
@@ -257,7 +257,7 @@ const mexicanMealData = [
     },
     {
         name: 'Fish Tacos',                                          //////////4
-        imgUrl: '../img/FishTacos.jpg',
+        imgUrl: './img/FishTacos.jpg',
         nutrition: [
             'Calories: 320',
             'Total Fat: 2g',
@@ -302,7 +302,7 @@ const mexicanMealData = [
     },
     {
         name: 'Menudo',                                          //////////5
-        imgUrl: '../img/menudo.jpg',
+        imgUrl: './img/menudo.jpg',
         nutrition: [
             'Calories: 1200',
             'Total Fat: 48.8g',
@@ -349,7 +349,7 @@ const mexicanMealData = [
 const americanMealData = [
     {
         name: 'TriTip',                                                              //////////1
-        imgUrl: '../img/tritip.jpg',
+        imgUrl: './img/tritip.jpg',
         nutrition: [
             'Calories: 400',
             'Total Fat: 20g',
@@ -382,7 +382,7 @@ const americanMealData = [
     },
     {
         name: 'Lobster Roll',                                                                    ///////////2
-        imgUrl: '../img/lobsterroll.jpg',
+        imgUrl: './img/lobsterroll.jpg',
         nutrition: [
             'Calories: 300',
             'Total Fat: 25g',
@@ -414,7 +414,7 @@ const americanMealData = [
     },
     {
         name: 'Chicago-Style Deep-Dish Pizza',                                      /////////3
-        imgUrl: '../img/deepdishpizza.jpg',
+        imgUrl: './img/deepdishpizza.jpg',
         nutrition: [
             'Calories: 407',
             'Total Fat: 23g',
@@ -450,7 +450,7 @@ const americanMealData = [
     },
     {
         name: 'Jambalaya',                                                                    ///////////4
-        imgUrl: '../img/Jambalaya.jpg',
+        imgUrl: './img/Jambalaya.jpg',
         nutrition: [
             'Calories: 450',
             'Total Fat: 35g',
@@ -488,7 +488,7 @@ const americanMealData = [
     },
     {
         name: 'Upper Peninsula Pasties',                                                                    ///////////5
-        imgUrl: '../img/pasties.jpg',
+        imgUrl: './img/pasties.jpg',
         nutrition: [
             'Calories: 757',
             'Total Fat: 44g',
@@ -524,7 +524,7 @@ const americanMealData = [
 const vegetarianMealData = [
     {
         name: 'Hearty Vegetarian Chili',                     //////////1
-        imgUrl: '../img/heartyveggiechili.jpg',
+        imgUrl: './img/heartyveggiechili.jpg',
         nutrition: [
             'Calories: 650',
             'Total Fat: 15g',
@@ -557,7 +557,7 @@ const vegetarianMealData = [
     },
     {
         name: 'Mushroom Pasta',                                          /////////2
-        imgUrl: '../img/mushroompasta.jpg',
+        imgUrl: './img/mushroompasta.jpg',
         nutrition: [
             'Calories: 600',
             'Total Fat: 100g',
@@ -586,7 +586,7 @@ const vegetarianMealData = [
     },
     {
         name: 'Sauteed Mushrooms',                                          /////////3
-        imgUrl: '../img/sauteedmushrooms.jpg',
+        imgUrl: './img/sauteedmushrooms.jpg',
         nutrition: [
             'Calories: 160',
             'Total Fat: 13g',
@@ -612,7 +612,7 @@ const vegetarianMealData = [
     },
     {
         name: 'Avocodo Toast',                                          /////////4
-        imgUrl: '../img/avocado-toast.jpg',
+        imgUrl: './img/avocado-toast.jpg',
         nutrition: [
             'Calories: 50',
             'Total Fat: 20g',
@@ -637,7 +637,7 @@ const vegetarianMealData = [
     },
     {
         name: 'Roast Squash with Goat Cheese',                                          /////////5
-        imgUrl: '../img/squash.jpg',
+        imgUrl: './img/squash.jpg',
         nutrition: [
             'Calories: 23',
             'Total Fat: 5g',
