@@ -4,24 +4,81 @@
   margin:0 auto;
 }
 
+
+body {
+  /* background-color: rgb(68, 68, 68); */
+  background-image: url(../img/andre-taissin-Sa_uh3r-Q5w-unsplash.jpg);
+  color: silver;
+}
+
 h1 {
-  margin: 30px 0px 100px 0px;
+  margin: 30px 550px 100px 550px;
+  margin-top: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: solid 5px black;
+  color: rgb(12, 12, 12);
+  font-size: 72px;
+  background-color: rgba(245, 245, 245, 0.433);
 }
 
-.buttons {
+#adventure a {
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 36px;
+  font-weight: bolder;
+  cursor: not-allowed;
+}
+
+
+#comfort a {
+  text-decoration: none;
+  font-family: fantasy; 
+  font-size: 36px;
+  font-weight: bolder;
+  cursor: crosshair;
+}
+
+button {
   padding:100px;
-  margin:10px;
+  margin: 10px;
+  font-size: 32px;
+  box-shadow: solid 4px black;
 }
 
-#redpill:hover {
+#adventure {
+  background-color: tomato;
+  cursor: not-allowed;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.672), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#adventure:hover {
   background: url("../img/eyeballs.jpg") no-repeat;
 }
 
-#bluepill:hover {
+#adventure:visited {
+  color: red;
+}
+
+#comfort {
+  background-color: lemonchiffon;
+  cursor: crosshair;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.672), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#comfort:hover {
   background: url("../img/pasties.jpg") no-repeat;
 }
 
-footer {
-  margin-top: 150px;
+#comfort:visited {
+  color: blue;
 }
 
+footer {
+  background-color: rgba(245, 245, 245, 0.433);
+  margin: 200px 550px 100px 550px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(38, 38, 38);
+  font-size: 24px;
+}
