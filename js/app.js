@@ -198,3 +198,4 @@ asianCategoryElem.addEventListener('click', clickHandlerAsian);
 mexicanCategoryElem.addEventListener('click', clickHandlerMexican);
 americanCategoryElem.addEventListener('click', clickHandlerAmerican);
 vegetarianCategoryElem.addEventListener('click', clickHandlerVegetarian);
+
