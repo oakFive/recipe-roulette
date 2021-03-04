@@ -12,10 +12,11 @@
   }
   
   nav {
-    background: white;
-    float: right;
-    margin-top: -55px;
-    margin-right: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.637);
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
     padding: 0px 20px 0px 20px;
   }
   nav ul {
@@ -30,6 +31,7 @@
     text-transform: uppercase;
   }
   nav a {
+    text-decoration: none;
     color: black;
   }
   
