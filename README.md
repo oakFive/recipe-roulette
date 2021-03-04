@@ -24,3 +24,35 @@ Our website produces a randomized meal recipe from user selected categories, pro
 ## Sources
 
 [Background Image](https://www.amazon.com/Laminated-24x36-inches-Poster-Background/dp/B076ZX2LSJ)
+
+[A Family Feast](https://www.afamilyfeast.com/)
+
+[Taste of Home](https://www.tasteofhome.com/)
+
+[BellyFull](https://bellyfull.net/)
+
+[Isabel Eats](https://www.isabeleats.com/)
+
+[All Recipes](https://www.allrecipes.com/)
+
+[Delish](https://www.delish.com/cooking/)
+
+[Simply Recipes](https://www.simplyrecipes.com/)
+
+[The Kitchn](https://www.thekitchn.com/)
+
+[Side Chef](https://www.sidechef.com/recipes/)
+
+[Yummly](https://www.yummly.com/)
+
+[Taste of Home](https://www.tasteofhome.com/)
+
+[BBC Good Food](https://www.bbcgoodfood.com/recipes/)
+
+[Learning to Smoke](http://www.learningtosmoke.com/)
+
+[Anna Har](http://www.annahar.com/)
+
+[Taco Bell](http://tacobell.com/)
+
+[I Stock Photo](http://www.istockphoto.com/)
