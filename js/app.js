@@ -11,6 +11,7 @@ const asianCategoryElem = document.getElementById('asianCategory');
 const mexicanCategoryElem = document.getElementById('mexicanCategory');
 const americanCategoryElem = document.getElementById('americanCategory');
 const vegetarianCategoryElem = document.getElementById('vegetarianCategory');
+const resultsSectionElem = document.getElementById('resultsSection');
 
 // Constructor Functions
 
@@ -175,21 +176,25 @@ function removePreviousMeal() {
 }
 
 function clickHandlerAsian() {
+  resultsSectionElem.style.display = 'block';
   removePreviousMeal();
   asianMeal();
 }
 
 function clickHandlerMexican() {
+  resultsSectionElem.style.display = 'block';
   removePreviousMeal();
   mexicanMeal();
 }
 
 function clickHandlerAmerican() {
+  resultsSectionElem.style.display = 'block';
   removePreviousMeal();
   americanMeal();
 }
 
 function clickHandlerVegetarian() {
+  resultsSectionElem.style.display = 'block';
   removePreviousMeal();
   vegetarianMeal();
 }
@@ -199,3 +204,5 @@ mexicanCategoryElem.addEventListener('click', clickHandlerMexican);
 americanCategoryElem.addEventListener('click', clickHandlerAmerican);
 vegetarianCategoryElem.addEventListener('click', clickHandlerVegetarian);
 
+
+resultsSectionElem.style.display = 'none';
