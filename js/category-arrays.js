@@ -192,8 +192,7 @@ const mexicanMealData = [
             '2 bell peppers, sliced into strips',
             '1 large poblano pepper sliced into strips (or substitute with another bell pepper if you cant find poblanos)',
             '1/2 large onion, sliced',
-            '1 pinch salt',
-            'Optional: guacamole, sour cream, chopped cilantro, flour or corn tortillas',
+        
         ],
         instructions: [
             'Add all the ingredients for the quick marinade in a large mixing bowl. Toss together until chicken is evenly coated with spices. Cover and set aside.',
@@ -279,15 +278,10 @@ const mexicanMealData = [
             'Freshly ground black pepper',
             '8 corn tortillas',
             '1 avocado, diced',
-            'Lime wedges, for serving',
-            'Sour cream, for serving',
             '1/4 c. mayonnaise',
             'Juice of 1 lime',
             '2 tbsp. freshly chopped cilantro',
             '1 tbsp. honey',
-            '2 c. shredded purple cabbage',
-            '1 c. corn kernels',
-            '1 jalapeño, minced',
 
 
         ],

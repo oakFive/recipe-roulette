@@ -53,7 +53,6 @@ h3 {
 
 .food-choice {
   display: flex;
-  gap: 2rem;
   justify-content: space-evenly;
   margin: auto;
 }
@@ -65,6 +64,7 @@ h3 {
   height: 400px;
   width: 400px;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .figcaption {
@@ -74,7 +74,7 @@ h3 {
   margin: 20px 100px 20px 100px;
   text-align: center;
   padding: 20px;
-  font-size: 1.5rem;
+  font-size: rem;
 }
 #mealName {
   color: seashell;
@@ -84,7 +84,7 @@ h3 {
   text-shadow: 6px 6px #3e2411;
   border-radius: 20px;
   padding: 20px 20px 20px 20px;
-  margin: 275px 600px 50px 600px;
+  margin: 50px 600px 50px 600px;
 }
 
 #container2 {
@@ -104,12 +104,15 @@ h3 {
   order: 2;
   padding: 0px 40px 0px 20px;
   border: 3px solid #3e2411;
+  font-size: 1.5rem;
 }
 
 #ingredientsSection {
   background: rgba(255, 250, 205, 0.683);
   border: 3px solid #3e2411;
   flex: 1;
+  font-size: 1.5rem;
+  overflow: hidden;
 }
 #instructionsSection {
   background: rgba(255, 250, 205, 0.622);
@@ -117,6 +120,7 @@ h3 {
   border-right: 5px solid #3e2411;
   border-bottom: 5px solid #3e2411;
   flex: 3;
+  font-size: 1.5rem;
 }
 
 #container3 {

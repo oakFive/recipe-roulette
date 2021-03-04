@@ -1,132 +1,135 @@
 * {
-    box-sizing: border-box;
-    font-family: fantasy;
-  }
-  
-  html {
-    background: url("../img/mitchell-griest-ARBBUlj-6Es-unsplash\ \(2\).jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  nav {
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.637);
-    float: left;
-    margin-top: 0px;
-    margin-left: 20px;
-    padding: 0px 20px 0px 20px;
-  }
-  nav ul {
-    padding: 0px 20px 0px 20px;
-    list-style: none;
-  }
-  nav li {
-    color: green;
-  }
-  nav:hover {
-    background: salmon;
-    text-transform: uppercase;
-  }
-  nav a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  h1 {
-    color: rgb(138, 140, 1);
-    background: url("../img/wood.jpg");
-    border-radius: 20px;
-    font-size: 6rem;
-    text-align: center;
-    text-shadow: 6px 6px rgba(0, 0, 0, 0.625);
-    margin: 50px 400px 75px 400px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-  }
-  
-  h3 {
-    padding: 10px 0px 0px 20px;
-  }
-  
-  .food-choice {
-    display: flex;
-    gap: 2rem;
-    justify-content: space-evenly;
-    margin: auto;
-  }
-  
-  .food-choice img {
-    display: flex;
-    box-shadow: 10px 10px  rgba(140, 140, 1, 0.323);
-    border: 5px solid #3e2411;
-    height: 400px;
-    width: 400px;
-    border-radius: 50px;
-  }
-  
-  .figcaption {
-    background: url("../img/wood.jpg");
-    color: white;
-    padding: 20px;
-    border-radius: 50px;
-    margin: 20px 100px 20px 100px;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-  #mealName {
-    color: rgb(140, 140, 1);
-    font-size: 4rem;
-    background: url("../img/wood.jpg");
-    text-align: center;
-    text-shadow: 6px 6px rgba(0, 0, 0, 0.625);
-    border-radius: 20px;
-    padding: 20px 20px 20px 20px;
-    margin: 275px 600px 50px 600px;
-  }
-  
-  #container2 {
-    display: flex;
-    border: 5px solid black;
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  #result-img img {
-    border-right: 5px solid black;
-    height: 100%;
-    width: 100%;
-  }
-  #nutritionSection {
-    background: rgba(39, 0, 67, 0.645);
-    color: khaki;
-    order: 2;
-    padding: 0px 40px 0px 20px;
-    border-left: 5px solid black;
-  }
-  
-  #ingredientsSection {
-    background: rgba(0, 0, 0, 0.734);
-    color: khaki;
-    flex: 1;
-  }
-  #instructionsSection {
-    background: rgba(0, 0, 0, 0.734);
-    color: khaki;
-    border: 5px solid black;
-    flex: 3;
-  }
-  
-  #container3 {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-  }
-  footer {
-    text-align: center;
-    margin-top: 400px;
-    color: whitesmoke;
-  }
-  
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+html {
+  background: url("../img/mitchell-griest-ARBBUlj-6Es-unsplash\ \(2\).jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.637);
+  float: left;
+  margin-top: 0px;
+  margin-left: 20px;
+  padding: 0px 20px 0px 20px;
+}
+nav ul {
+  padding: 0px 20px 0px 20px;
+  list-style: none;
+}
+nav li {
+  color: green;
+}
+nav:hover {
+  background: salmon;
+  text-transform: uppercase;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  color: rgb(138, 140, 1);
+  background: url("../img/wood.jpg");
+  border-radius: 20px;
+  font-size: 6rem;
+  text-align: center;
+  text-shadow: 6px 6px rgba(0, 0, 0, 0.625);
+  margin: 50px 400px 75px 400px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+h3 {
+  padding: 10px 0px 0px 20px;
+}
+
+.food-choice {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.food-choice img {
+  display: flex;
+  box-shadow: 10px 10px rgba(140, 140, 1, 0.323);
+  border: 5px solid #3e2411;
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.figcaption {
+  background: url("../img/wood.jpg");
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 20px 100px 20px 100px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#mealName {
+  color: rgb(140, 140, 1);
+  font-size: 4rem;
+  background: url("../img/wood.jpg");
+  text-align: center;
+  text-shadow: 6px 6px rgba(0, 0, 0, 0.625);
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  margin: 50px 600px 50px 600px;
+}
+
+#container2 {
+  display: flex;
+  border: 5px solid black;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#result-img img {
+  border-right: 5px solid black;
+  height: 100%;
+  width: 100%;
+}
+#nutritionSection {
+  background: rgba(39, 0, 67, 0.645);
+  color: khaki;
+  order: 2;
+  padding: 0px 40px 0px 20px;
+  border-left: 5px solid black;
+  font-size: 1.5rem;
+}
+
+#ingredientsSection {
+  background: rgba(0, 0, 0, 0.734);
+  color: khaki;
+  flex: 1;
+  font-size: 1.5rem;
+}
+#instructionsSection {
+  background: rgba(0, 0, 0, 0.734);
+  color: khaki;
+  border: 5px solid black;
+  flex: 3;
+  font-size: 1.5rem;
+}
+
+#container3 {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  margin-top: 400px;
+  color: whitesmoke;
+}
